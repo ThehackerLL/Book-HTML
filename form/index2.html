@@ -6,30 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" placeholder="Escribe aquí tu usuario">
-        <br>
-        <label for="password">Contraseña</label>
-        <input type="password" id="password" name="password" placeholder="Escribe aquí tu contraseña">
-        <br>
-        <label for="checkbox">¿Que codigos usas?</label> <br>
-        <input type="checkbox" name="lenguajes" value="HTML">HTML<br>
-        <input type="checkbox" name="lenguajes" value="CSS">CSS<br>
-        <input type="checkbox" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT<br>
-        <input type="checkbox" name="lenguajes" value="REACT">REACT<br>
-        <br>
-        <label for="radio">¿Cual codigo te gusta mas?</label> <br>
-        <input type="radio" name="lenguajes" value="HTML">HTML<br>
-        <input type="radio" name="lenguajes" value="CSS">CSS<br>
-        <input type="radio" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT<br>
-        <input type="radio" name="lenguajes" value="REACT">REACT<br>
-        <br>
-        <label for="radio">Años progrmando:</label>
-        <input type="number" id="programando" name="programando" placeholder="años programando">
+
+    <label for="opinion">Subir archivo:</label><br>
+    <textarea id="opinion" name="pdf" value="file" placeholder="Escribí tu ioinión" rows="5px" cols="50"></textarea> 
         <br>
         <br>
-        <label for="opinion">Subir archivo:</label><br>
-        <textarea id="opinion" name="pdf" value="file" placeholder="Escribí tu ioinión" rows="5px" cols="50"></textarea> 
+        <label for="pais">Selecioná tu pasi de origen:</label>
+        <select name="pais" id="pais">
+            <optgroup label="Equipo-1">
+                <option value="Argentia">Argentina</option>
+                <option value="Francia">Francia</option>
+                <option value="Croacia">Croacia</option>
+                <option value="Israel" selected="Inicia">Israel</option>
+                <option value="Perú">Perú</option>
+            </optgroup>
+            <optgroup label="Equipo-2">
+                <option value="China">China</option>
+                <option value="Rusia">Rusia</option>
+                <option value="Iran">Iran</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Alemania">Alemania</option>
+            </optgroup>
+            
+        </select>
+
 
 </body>
 </html>
